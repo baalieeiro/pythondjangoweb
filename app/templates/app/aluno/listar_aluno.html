@@ -24,7 +24,7 @@
             <td>{{ aluno.celular_aluno }}</td>
             <td>{{ aluno.sigla_curso }}</td>
             <td>
-              <a href="{% url 'listar_aluno' sigla=curso.sigla aluno_id=aluno.id %}">
+              <a href="{% url 'listar_aluno' sigla=sigla_curso aluno_id=aluno.id %}">
                 <img src="https://webdjango.scm.azurewebsites.net/dev/api/files/wwwroot/app/static/img/editar.png" height="32" width="32">
               </a>
             </td>
